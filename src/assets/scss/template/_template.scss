@@ -8,6 +8,14 @@ html,
   background: $white !important;
 }
 
+a {
+  text-decoration: underline;
+}
+
+.tech-link:visited {
+  color: #c0c0c0 !important;
+}
+
 .container.header {
   background: $white;
 }
@@ -60,8 +68,93 @@ table.button.google table td {
 
 h1 {
   font-weight: 900;
+  font-size: 38px;
+  font-family: 'Arial Black', 'Arial', 'Helvetica', sans-serif;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
-.picture {
-  background-image: url('../assets/img/pic.jpg');
+.wrap-picture {
+  background: url('../assets/img/pic.jpg') top center no-repeat;
+  background-size: cover;
+}
+.wrap-number {
+  background-color: #ffffff;
+}
+.wrap-number p {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: 'Arial Black', 'Arial', 'Helvetica', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
+.wrap-number th.last {
+  padding-bottom: 0;
+}
+.wrap-dashed {
+  border: 1px dashed #ffffff;
+}
+.cta a {
+  line-height: 40px;
+}
+.tech-link {
+  font-size: 8px;
+  color: #c0c0c0;
+}
+.we-know {
+  font-size: 12px;
+  color: $black;
+  letter-spacing: 2.5px;
+  line-height: 33px;
+}
+.discount {
+  color: $white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.discount strong {
+  font-family: 'Arial Black', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 900;
+}
+.percents {
+  font-size: 30px;
+}
+.star {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-weight: normal;
+}
+.desc {
+  font-size: 11px;
+  color: $white;
+  letter-spacing: 1.5px;
+}
+h3 {
+  font-family: 'Arial Black', 'Arial', 'Helvetica', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  color: $white;
+  letter-spacing: 1.5px;
+}
+.cta a {
+  font-weight: normal !important;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 30px !important;
+}
+.regards {
+  font-size: 12px;
+  color: #787878;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+.regards a {
+  color: inherit;
+}
+.contacts {
+  font-size: 10px;
+  color: #c0c0c0;
+  line-height: 18px;
+  letter-spacing: 1px;
 }
