@@ -72,6 +72,8 @@ h1 {
   font-family: 'Arial Black', 'Arial', 'Helvetica', sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
+
+  @media only screen and (max-width: #{$global-breakpoint}) {font-size: 32px;}
 }
 .wrap-picture {
   background: url('../assets/img/pic.jpg') top center no-repeat;
@@ -87,6 +89,8 @@ h1 {
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 8px;
+
+  @media only screen and (max-width: #{$global-breakpoint}) {letter-spacing: 3px !important;}
 }
 .wrap-number th.last {
   padding-bottom: 0;
@@ -106,6 +110,8 @@ h1 {
   color: $black;
   letter-spacing: 2.5px;
   line-height: 33px;
+
+  @media only screen and (max-width: #{$global-breakpoint}) {letter-spacing: 1.5px;}
 }
 .discount {
   color: $white;
@@ -128,6 +134,7 @@ h1 {
   font-size: 11px;
   color: $white;
   letter-spacing: 1.5px;
+  line-height: 22px;
 }
 h3 {
   font-family: 'Arial Black', 'Arial', 'Helvetica', sans-serif;
@@ -142,6 +149,8 @@ h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 8px 30px !important;
+
+  @media only screen and (max-width: #{$global-breakpoint}) {font-size: 10px !important; letter-spacing: 1px !important;}
 }
 .regards {
   font-size: 12px;
