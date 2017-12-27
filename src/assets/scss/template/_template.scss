@@ -76,7 +76,7 @@ h1 {
   @media only screen and (max-width: #{$global-breakpoint}) {font-size: 32px;}
 }
 .wrap-picture {
-  background: url('../assets/img/pic.jpg') top center no-repeat;
+  background: url('https://marketing-image-production.s3.amazonaws.com/uploads/dac6171d994e3ada4446aacbfbb7a5613c50a4cfebc600c88b9bbfe35482f33d38b82c080678fc71a84894f5d716afa18ccc8ae0e417184a3a4fd16ca699fc99.jpg') top center no-repeat;
   background-size: cover;
 }
 .wrap-number {
@@ -90,7 +90,7 @@ h1 {
   font-weight: 900;
   letter-spacing: 8px;
 
-  @media only screen and (max-width: #{$global-breakpoint}) {letter-spacing: 3px !important;}
+  // @media only screen and (max-width: #{$global-breakpoint}) {letter-spacing: 3px !important;}
 }
 .wrap-number th.last {
   padding-bottom: 0;
@@ -102,11 +102,11 @@ h1 {
   line-height: 40px;
 }
 .tech-link {
-  font-size: 8px;
+  font-size: 10px;
   color: #c0c0c0;
 }
 .we-know {
-  font-size: 12px;
+  // font-size: 14px;
   color: $black;
   letter-spacing: 2.5px;
   line-height: 33px;
@@ -116,7 +116,7 @@ h1 {
 .discount {
   color: $white;
   text-transform: uppercase;
-  font-size: 12px;
+  // font-size: 12px;
   letter-spacing: 2px;
 }
 .discount strong {
@@ -131,9 +131,9 @@ h1 {
   font-weight: normal;
 }
 .desc {
-  font-size: 11px;
+  // font-size: 11px;
   color: $white;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   line-height: 22px;
 }
 h3 {
@@ -142,15 +142,16 @@ h3 {
   font-weight: 900;
   color: $white;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 .cta a {
   font-weight: normal !important;
-  font-size: 14px;
+  // font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 8px 30px !important;
 
-  @media only screen and (max-width: #{$global-breakpoint}) {font-size: 10px !important; letter-spacing: 1px !important;}
+  @media only screen and (max-width: 425px) {font-size: 10px !important; letter-spacing: 1.3px !important;}
 }
 .regards {
   font-size: 12px;
@@ -162,8 +163,21 @@ h3 {
   color: inherit;
 }
 .contacts {
-  font-size: 10px;
+  font-size: 12px;
   color: #c0c0c0;
   line-height: 18px;
   letter-spacing: 1px;
+}
+.preheader {
+  display: none;
+  font-size: 1px;
+  color: #333333;
+  line-height: 1px;
+  max-height: 0px;
+  max-width: 0px;
+  opacity: 0;
+  overflow: hidden;
+}
+.main-wrap {
+  background-color: #eeeeee;
 }
